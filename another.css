@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(0, 0, 255);
+}
+ h1{
+    width: 58%;
+    height: 58vh;
+    background-color: rgba(0, 0, 225, 0.508);
+    background: linear-gradient(90deg, green 30%, white 30%, white 65%, green 65%); 
+    margin: auto;
+}
+
+.conic{
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    margin: 30px;
+    background: conic-gradient(red 30%, blue 30%, blue 60%, green 60%, green 65%, gold 65%, gold 75%, white 75%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.img{
+    font-size: 7em;
+    width: 700px;
+    height: 400px;
+    background: url(./2565.webp);
+    background-size: cover;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.GH{
+    width: 700px;
+    height: 400px;
+    background-image: url(./star.png), linear-gradient(180deg, red 35%, yellow 35%, yellow 65%, green 65%);
+    background-position: center;
+    background-size: 50px, 600px;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.blend{
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-image: url(./star.png);
+    background-color: green;
+}
+
+.blend.hover{
+    background-blend-mode: overlay;
+    cursor: pointer;
+}
+

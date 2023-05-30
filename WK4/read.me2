@@ -1,0 +1,18 @@
+nstructions (2)
+Your tribute page should have a main element with a corresponding id of main, which contains all other elements
+You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
+You should see either a figure or a div element with an id of img-div
+Within the #img-div element, you should see an img element with a corresponding id="image"
+Within the #img-div element, you should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in #img-div
+You should see a section element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+To describe the subject on the page, you are expected to use a sub heading element and an unordered list element as children to the section.
+The unordered list should contain at least six list items describing the subject.
+You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab.
+Your link element should have a color of blue and green underline when hovered on, and the color should be gray with no underline when not on hover.
+Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size
+Your img element should be centered within its parent element
+Your image should have a border of groove at the top and ridge at the bottom.
+Your image should be rounded.
+Your main element should occupy 75% the size of its parent and must be on the center of its parent.
+Submission
+Submit the link to your hosted repository on GitHub.

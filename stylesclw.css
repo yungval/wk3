@@ -1,0 +1,27 @@
+html{
+    font-size: 20px;
+}
+main{
+    width: 80%;
+    margin: auto;
+    background-color: red;
+    color: black;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    padding: 3em 2em ;
+}
+
+h2{
+    border-bottom: 10px groove;
+}
+
+p{
+    font-size: 2rem;
+    border-left: 10px groove;
+    border-right: 10px groove;
+}

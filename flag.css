@@ -1,0 +1,16 @@
+main{
+    margin: 3em auto;
+    width: 500px;
+    height: 350px;
+    border: 5px solid red;
+    background-image: url(./y-star-removebg-preview.png),
+                      url(./y-star-removebg-preview.png),
+                      url(./y-star-removebg-preview.png),
+                      url(./y-star-removebg-preview.png),
+                      url(./y-star-removebg-preview.png),
+                      url(./y-star-removebg-preview.png),
+                    radial-gradient(red red );
+                background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+                block-size: 150px, 30px,  30px,  30px,  30px, 500px;
+            background-position: 10px 10px, 120px 5px, 140px 45px, 140px 45px, 150px 90px, 120px 130px;
+}

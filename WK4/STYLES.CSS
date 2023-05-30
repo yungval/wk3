@@ -1,0 +1,22 @@
+div{
+    /* background-color: #0000ff; */
+    color: fuchsia;
+    height: 50vh;
+    width:40%;
+}
+h1{
+    background-color: aqua;
+    width: 700px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em; 
+    
+   
+}
+h2{
+    background-color: chartreuse;
+     margin-top: 2em; 
+    padding: 3em 3em;
+    border: 10px groove burlywood;
+}
